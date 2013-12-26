@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Remove omnirom project -->
+  <remove-project name="platform/prebuilts/misc" />
 
     <!-- Trungnc -->
   <project path="build" name="trungnc/android_build" revision="cm-11.0" >
