@@ -12,6 +12,8 @@
   <project path="hardware/qcom/display-legacy" name="trungnc/android_hardware_qcom_display-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="trungnc/android_hardware_qcom_media-legacy" revision="cm-11.0" />
   <project path="kernel/htc/htc7x30-3.0" name="trungnc/htc7x30-3.0" revision="cm-11.0" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="cm-11.0" />
   <project path="local_manifest" name="trungnc/android" revision="cm-11.0" />
   <project path="vendor/htc/ace" name="trungnc/android_vendor_htc_ace" revision="cm-11.0" />
   <project path="vendor/qcom/proprietary" name="trungnc/android_vendor_qcom_proprietary" revision="cm-11.0" />
