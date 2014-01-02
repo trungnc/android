@@ -17,7 +17,7 @@
   <project path="hardware/qcom/audio-legacy" name="trungnc/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="trungnc/android_hardware_qcom_display-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="trungnc/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="trungnc/android_hardware_libhardware" revision="android-4.4"
+  <project path="hardware/libhardware" name="trungnc/android_hardware_libhardware" revision="android-4.4" />
   <project path="kernel/htc/htc7x30-3.0" name="trungnc/htc7x30-3.0" revision="cm-11.0" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="cm-11.0" />
