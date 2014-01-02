@@ -6,6 +6,7 @@
   <remove-project name="android_packages_apps_OpenDelta" />
   <remove-project name="android_hardware_libhardware" />
   <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="android_packages_providers_MediaProvider" />
 
     <!-- Trungnc -->
   <project path="build" name="trungnc/android_build" remote="github" revision="android-4.4" >
@@ -24,4 +25,5 @@
   <project path="local_manifest" name="trungnc/android" remote="github" revision="android-4.4" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" remote="github" revision="cm-11.0" />
 </manifest>
