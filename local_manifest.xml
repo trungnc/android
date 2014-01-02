@@ -8,20 +8,20 @@
   <remove-project name="platform/prebuilts/misc" />
 
     <!-- Trungnc -->
-  <project path="build" name="trungnc/android_build" revision="android-4.4" >
+  <project path="build" name="trungnc/android_build" remote="github" revision="android-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/htc/ace" name="trungnc/android_device_htc_ace" revision="cm-11.0" />
-  <project path="device/htc/msm7x30-common" name="trungnc/android_device_htc_msm7x30-common" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="trungnc/android_hardware_libhardware_legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-legacy" name="trungnc/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/display-legacy" name="trungnc/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="trungnc/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="trungnc/android_hardware_libhardware" revision="android-4.4" />
-  <project path="kernel/htc/htc7x30-3.0" name="trungnc/htc7x30-3.0" revision="cm-11.0" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="cm-11.0" />
-  <project path="local_manifest" name="trungnc/android" revision="android-4.4" />
-  <project path="vendor/htc/ace" name="trungnc/android_vendor_htc_ace" revision="cm-11.0" />
-  <project path="vendor/qcom/proprietary" name="trungnc/android_vendor_qcom_proprietary" revision="cm-11.0" />
+  <project path="device/htc/ace" name="trungnc/android_device_htc_ace" remote="github" revision="cm-11.0" />
+  <project path="device/htc/msm7x30-common" name="trungnc/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="Mustaavalkosta/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="trungnc/android_hardware_libhardware" remote="github" revision="android-4.4" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-11.0" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="cm-11.0" />
+  <project path="local_manifest" name="trungnc/android" remote="github" revision="android-4.4" />
+  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
 </manifest>
