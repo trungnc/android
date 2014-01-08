@@ -9,7 +9,7 @@
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_packages_providers_MediaProvider" />
-  <remote-project name="android_hardware_ril" />
+  <remove-project name="android_hardware_ril" />
 
     <!-- Trungnc -->
   <project path="build" name="trungnc/android_build" remote="github" revision="android-4.4" >
