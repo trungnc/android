@@ -3,6 +3,7 @@
     <!-- Remove omnirom project -->
   <remove-project name="android_build" />
   <remove-project name="android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <remove-project name="android_packages_apps_OpenDelta" />
   <remove-project name="android_hardware_libhardware" />
   <remove-project name="platform/prebuilts/misc" />
@@ -23,6 +24,7 @@
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="Mustaavalkosta/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Camera2" name="Mustaavalkosta/android_packages_apps_Camera2" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware" name="trungnc/android_hardware_libhardware" remote="github" revision="android-4.4" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-11.0" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
