@@ -4,10 +4,9 @@
   <remove-project name="android_build" />
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="android_packages_apps_OpenDelta" />
-  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_hardware_libhardware" />CA
   <remove-project name="platform/prebuilts/misc" />
   <remove-project name="android_frameworks_base" />
-  <remove-project name="android_frameworks_av" />
   <remove-project name="android_packages_providers_MediaProvider" />
   <remove-project name="android_hardware_ril" />
 
@@ -19,7 +18,6 @@
   <project path="device/htc/ace" name="trungnc/android_device_htc_ace" remote="github" revision="omni-4.4" />
   <project path="frameworks/base" name="trungnc/android_frameworks_base" remote="github" revision="android-4.4" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-11.0" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
