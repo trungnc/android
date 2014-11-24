@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="device/samsung/js01lte" name="trungnc/android_device_samsung_js01lte" remote="github" revision="cm-12.0" />
   <project path="device/samsung/js01ltedcm" name="trungnc/android_device_samsung_js01ltedcm" remote="github" revision="cm-12.0" />
   <project path="device/samsung/js01lte-common" name="trungnc/android_device_samsung_js01lte-common" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/js01lte" name="trungnc/android_kernel_samsung_js01lte" remote="github" revision="cm-12.0" />
