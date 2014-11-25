@@ -8,4 +8,5 @@
   <project path="kernel/samsung/js01lte" name="trungnc/android_kernel_samsung_js01lte" remote="github" revision="cm-12.0" />
   <project path="local_manifest" name="trungnc/android" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung" name="trungnc/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.0" />
 </manifest>
